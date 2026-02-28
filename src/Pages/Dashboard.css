@@ -1,0 +1,47 @@
+/* ===== DASHBOARD MAIN CONTAINER ===== */
+.dashboard-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ===== TITLE ===== */
+.dashboard-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* ===== CARD STYLE ===== */
+.user-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #007bff;
+}
+
+/* ===== SECTION TITLE ===== */
+.user-card h3 {
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+/* ===== USER INFO ROWS ===== */
+.user-card p {
+  font-size: 16px;
+  margin: 8px 0;
+  color: #333;
+}
+
+/* ===== LABEL (BOLD TEXT) ===== */
+.user-card p strong {
+  color: #000;
+}
+
+/* ===== LOADING TEXT ===== */
+.loading-text {
+  text-align: center;
+  margin-top: 50px;
+}

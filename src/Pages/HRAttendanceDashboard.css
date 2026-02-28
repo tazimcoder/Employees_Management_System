@@ -1,0 +1,91 @@
+/* Page wrapper */
+.hr-dashboard-page {
+    background: #ffffff;
+    min-height: 100vh;
+    width: 100%;
+    padding: 30px;
+  }
+  
+  /* extra safety */
+  body {
+    background: #ffffff;
+  }
+  
+  .app {
+    background: #ffffff;
+    min-height: 100vh;
+  }
+  
+  /* Heading */
+  .hr-dashboard-page h1,
+  .hr-dashboard-page h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 8px;
+  }
+  
+  /* Paragraph */
+  .hr-dashboard-page p {
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* View Dashboard button (UPDATED like Employees button) */
+  .view-dashboard-btn {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 8px 18px;
+    border-radius: 6px;
+    background: #2f6fed;
+    color: #ffffff;
+    border: none;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.15s ease;
+  }
+  
+  /* hover */
+  .view-dashboard-btn:hover {
+    background: #1f56d8;
+    color: #ffffff;
+    transform: translateY(-1px);
+  }
+  
+  /* Dashboard container */
+  .dashboard-wrapper {
+    padding: 30px;
+  }
+  
+  /* Top cards container */
+  .top-dashboard-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 25px;
+  }
+  
+  /* Cards */
+  .mini-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    text-align: center;
+  }
+  
+  /* Card title */
+  .card-title {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  /* Card number */
+  .mini-card h2 {
+    font-size: 28px;
+    color: #000;
+    margin: 0;
+  }

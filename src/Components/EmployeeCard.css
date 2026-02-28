@@ -1,0 +1,47 @@
+/* EMPLOYEE CARD */
+
+.employee-card {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #e5e7eb;      /* thin border */
+    border-radius: 4px;             /* almost square */
+    padding: 10px 12px;             /* compact padding */
+    box-shadow: none;               /* no shadow */
+    transition: background 0.15s ease;
+  }
+  
+  /* HOVER – VERY SUBTLE */
+  .employee-card:hover {
+    background: #f9fafb;            /* light hover */
+  }
+  
+  /* NAME */
+  .employee-card h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 4px;
+  }
+  
+  /* DETAILS */
+  .employee-card p {
+    font-size: 12px;
+    color: #374151;
+    margin: 2px 0;
+    line-height: 1.4;
+  }
+  
+  /* EDIT LINK */
+  .employee-card .edit-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  /* EDIT HOVER */
+  .employee-card .edit-link:hover {
+    text-decoration: underline;
+  }
